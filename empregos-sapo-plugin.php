@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Empregos Sapo Plugin
-Plugin URI: http://emprego.sapo.pt/emprego/ofertas.htm/pais/portugal/distrito/aveiro/
+Plugin URI: http://emprego.sapo.pt/emprego/ofertas.htm/
 Description: O plugin Empregos Sapo adiciona um widget ao teu blog que mostra as ultimas ofertas de emprego em Portugal. Pode ser integrado em qualquer sitio no do teu site.
 Version: 1.0
 Author: Ricardo Mendes
