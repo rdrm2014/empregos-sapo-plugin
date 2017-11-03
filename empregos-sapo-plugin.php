@@ -50,7 +50,7 @@ function empregossapo(){
       $title = substr($title, 0, $max_length)."...";
     }
     ?>
-    <a href="<?=$i->link?>"><?=$title?></a>
+    <a href="<?=$i->link?>"><b><?=$title?></b></a>
     <?php
     // Description
     $description = $i->description;
