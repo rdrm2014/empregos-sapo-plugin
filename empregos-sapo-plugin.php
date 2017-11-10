@@ -50,7 +50,7 @@ function empregossapo(){
       $title = substr($title, 0, $max_length)."...";
     }
     ?>
-    <a href="<?=$i->link?>"><b><?=$title?></b></a>
+    <a href="<?=$i->link?>"><strong><?=$title?></strong></a>
     <?php
     // Description
     $description = $i->description;
@@ -58,7 +58,7 @@ function empregossapo(){
     $length = strlen($description);
     // if the description is longer than the previously defined maximum length,
     // it'll he shortened and "..." added, or it'll output normaly
-    if($description > $max_length){
+    if($length > $max_length){
       $description = substr($description, 0, $max_length)."...";
     }
     ?>
